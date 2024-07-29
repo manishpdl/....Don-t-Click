@@ -15,7 +15,15 @@ body {
   margin: 0;
   padding: 0;
 }
-
+#datetime {
+  display: flex;
+  font-size: 0.8rem;
+  flex-direction: row-reverse;
+  padding: 10px 20px;
+  border-radius: 5px;
+  
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 .navbar {
   display: flex;
   justify-content: space-between;
