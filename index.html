@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="nav-left"><a href="#">nepal.gov.np</a></div>
+      <div class="nav-right">
+        <div class="navsearch">
+          <input
+            type="text"
+            placeholder="Search Nepal.gov"
+            id="search-bar"
+            class="nav-click"
+            list="suggestions"
+          />
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <datalist id="suggestions">
+            <option value="Manish"></option>
+            <option value="Alok"></option>
+            <option value="Sachin"></option>
+            <option value="Kstiz"></option>
+          </datalist>
+        </div>
+
+        <div class="nav-button">
+          <button class="nav-click">
+            Login<i class="fa-solid fa-user"></i>
+          </button>
+          <button class="nav-click" id="nav-lang">नेपा</button>
+          <button class="nav-click">
+            Menu <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="mountains">
+        <div class="written">
+          <h2 id="written-heading">DIGITAL NEPAL</h2>
+          <p id="written-paragraph">
+            The new effective way to find <br />government services <br />and
+            information
+          </p>
+          <div class="icons">
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-volume-high">
+              <span id="listen">Listen</span></i
+            >
+            <i class="fa-solid fa-play"></i>
+          </div>
+        </div>
+        <div class="dots"></div>
+      </div>
+    </div>
+  </body>
+</html>
